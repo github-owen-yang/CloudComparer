@@ -1,4 +1,4 @@
-﻿<html lang="en">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -7,19 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="follow,index">
    
-    <META NAME="Title" CONTENT="A Public Cloud Comparison | AWS vs Azure vs Alibaba vs IBM vs Oracle vs Google">
+    <META NAME="Title" CONTENT="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
     <META NAME="Keywords" CONTENT="AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba, AWS vs Azure, Azure vs Google">
     <META NAME="Description" CONTENT="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
     <META NAME="Author" CONTENT="Ilyas">
-    <META NAME="Subject" CONTENT="A Public Cloud Comparison | AWS vs Azure vs Alibaba vs IBM vs Oracle vs Google">
+    <META NAME="Subject" CONTENT="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="A Public Cloud Comparison | AWS vs Azure vs Alibaba vs IBM vs Oracle vs Google">
+    <meta property="og:title" content="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
     <meta property="og:locale" content="en_US">
     <meta property="og:description" content="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
     <link rel="canonical" href="http://comparecloud.in/">
     <meta property="og:url" content="http://comparecloud.in/">
-    <meta property="og:site_name" content="A Public Cloud Comparison | AWS vs Azure vs Alibaba vs IBM vs Oracle vs Google">
+    <meta property="og:site_name" content="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
     <meta property="og:image" content="/img/Logo_small.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@Ilyas_tweets">
@@ -27,7 +27,7 @@
     <meta property="article:author" content="https://www.facebook.com/IlyasTheWebizen">
     <meta name="twitter:description" content="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
     <meta name="twitter:title" content="A public Cloud Compareison : AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
-    <title>AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba | A detailed comparison and mapping between various cloud services</title>
+    <title>AWS vs Azure vs Alibaba vs IBM vs Oracle vs Google | A detailed comparison and mapping between various cloud services</title>
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/stylish-portfolio.css" rel="stylesheet">
@@ -47,17 +47,8 @@
 <body>
     <section id="top" class="portfolio">
         <h1 class="text-center" style="font-size: 65px;">
-            Public Cloud Services Comparison (March 18th,2019)
+            Public Cloud Services Comparison (March 2019)
         </h1>
-        <div class="row text-center">
-                 <!-- Place this tag where you want the button to render. -->
-                <a class="github-button" href="https://github.com/ilyas-it83/CloudComparer" data-size="large" data-show-count="true" aria-label="Star ilyas-it83/CloudComparer on GitHub">Star</a>
-                <!-- Place this tag where you want the button to render. -->
-                <a class="github-button" href="https://github.com/ilyas-it83" data-size="large" data-show-count="true" aria-label="Follow @ilyas-it83 on GitHub">Follow @ilyas-it83</a>
-                <!-- Place this tag where you want the button to render. -->
-                <a class="github-button" href="https://github.com/ilyas-it83/CloudComparer/fork" data-size="large" data-show-count="true" aria-label="Fork ilyas-it83/CloudComparer on GitHub">Fork</a>
-          </div>
-
         
       <table id="comparetable"  class="table table-bordered table-striped table-hover table-responsive">
         <thead style="background-color: #b8cee2;">
@@ -71,7 +62,7 @@
               <img class="img-responsive" src="img/logo/msazure.png" alt="Microsoft Azure Log"/>
             </th>
             <th>
-              <img class="img-responsive" src="img/logo/alibaba.png" alt="Alibaba Cloud Logo"/>
+			  <img class="img-responsive" src="img/logo/alibaba.png" alt="Alibaba Cloud Logo"/>
             </th>
             <th>
               <img class="img-responsive" src="img/logo/IBM-Cloud.png"  alt="IBM Cloud Logo" />
@@ -80,7 +71,7 @@
               <img  class="img-responsive" src="img/logo/oracle.png" alt="Oracle Cloud Logo"/>
             </th>
             <th>
-             <img class="img-responsive" src="img/logo/google.png"  alt="Google Cloud Platform Logo" />
+			  <img class="img-responsive" src="img/logo/google.png"  alt="Google Cloud Platform Logo" />
             </th>
           </tr>
         </thead>
@@ -107,7 +98,7 @@
                                 <img src="img/cloudproviders/aws/{{icon}}" alt="{{name}}" onerror="this.remove()"  class=" hidden-sm hidden-xs img-responsive img-icons" /> {{name}}
                                 {{/if}}
                                 {{#if ref}}
-                                <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>
+                                <!--<a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a> -->
                                 {{/if}}
                             </li>                           
                         {{/each}}
@@ -122,12 +113,13 @@
                                 <img src="img/cloudproviders/azure/{{icon}}" alt="{{name}}" onerror="this.remove()" class=" hidden-sm hidden-xs img-responsive img-icons" />{{name}}
                                 {{/if}}
                                 {{#if ref}}
-                                <a href="{{ref}}"  class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"> </a>
+                                <!-- <a href="{{ref}}"  class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"> </a>-->
                                 {{/if}}
                             </li>                            
                         {{/each}}
                     </ul>
                 </td>
+
                 <td>
                     <ul>
                         {{#each alibaba}}
@@ -136,12 +128,13 @@
                             <img src="img/cloudproviders/alibaba/{{icon}}" alt="{{name}}" onerror="this.remove()" class=" hidden-sm hidden-xs img-responsive img-icons" />{{name}}
                             {{/if}}
                             {{#if ref}}
-                                <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>
+                               <!-- <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a> -->
                             {{/if}}
                         </li>                           
                         {{/each}}
                     </ul>
                 </td>
+
                 <td>
                     <ul>
                         {{#each ibm}}
@@ -150,7 +143,7 @@
                             <img src="img/cloudproviders/ibm/{{icon}}" alt="{{name}}" onerror="this.remove()" class=" hidden-sm hidden-xs img-responsive img-icons" />{{name}}
                             {{/if}}
                             {{#if ref}}
-                            <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>                        
+                           <!-- <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>   -->                     
                             {{/if}}                        
                         </li>
 
@@ -166,14 +159,14 @@
                             <img src="img/cloudproviders/oracle/{{icon}}" alt="{{name}}" onerror="this.remove()" class=" hidden-sm hidden-xs img-responsive img-icons" />{{name}}
                             {{/if}}
                             {{#if ref}}
-                            <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>                        
+                           <!-- <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>    -->                    
                             {{/if}}
                         </li>                            
                         {{/each}}
                     </ul>
                 </td>
 
-		 <td>
+				<td>
                     <ul>
                         {{#each google}}
                         <li>
@@ -181,7 +174,7 @@
                             <img src="img/cloudproviders/gcp/{{icon}}" alt="{{name}}" onerror="this.remove()" class=" hidden-sm hidden-xs img-responsive img-icons" />{{name}}
                             {{/if}}
                             {{#if ref}}
-                            <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>                        
+                           <!-- <a href="{{ref}}" class="glyphicon glyphicon-link srvc-hyperlink hidden-print" target="_blank"></a>    -->                    
                             {{/if}}
                         </li>
 
@@ -194,106 +187,6 @@
         </tbody>
       </table>
     </section>
-    <section id="cloud-feed" class="hidden-print">
-        <h2 class="text-center">Cloud Feed</h2>
-        <hr class="small">
-        <table class="feedwind table table-responsive ">
-            <tr>
-                <td>
-                    <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57947/"></script>
-                </td>
-                <td>
-                    <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57946/"></script>
-                </td>
-                <td>
-                    <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57941/"></script>
-                </td>
-                <td>
-                    <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57948/"></script>
-                </td>
-                <td>
-                    <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57950/"></script>
-                </td>
-            </tr>
-        </table>
-    </section>
-
-    <!-- Disqus Comments -->
-    <section id="portfolio" class="portfolio container hidden-print">
-        <h2 class="text-center">Comments</h2>
-        <hr class="small">
-        <div id="disqus_thread"></div>
-    </section>
-
-    <!-- Advice -->
-    <section id="advice" class="services bg-primary hidden-print">
-        <div class="container">
-            <h2 class="text-center">Piece of Advice</h2>
-            <hr class="small">
-            <div class="advice-item">
-                <ul class="list-unstyled">
-                    <li>The portal presents service & feature level mapping between 6 Gartner Magic Quadrant 2018 Qualified major public clouds i.e.Amazon
-                        Web Service, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud & Alibaba Cloud</li>
-                    <li>A Reference manual to help anyone to quickly learn the alternate features & services between clouds</li>
-                    <li>This is NOT a comparison chart/material between the cloud providers</li>
-                    <li>“None” mentioned against certain services is based on unavailability of certain direct mapping services between cloud providers</li>
-                    <li>Strictly No Personal or Employer opinions expressed in this presentation</li>
-                    <li>All the definition & benefits of services mentioned in this presentation are sourced from the respective cloud providers websites and documentations.</li>
-                    <li>For any queries or issues, please raise an issue <a href="https://github.com/ilyas-it83/CloudComparer/issues/">here</a></li>
-                    <li>Listing doesn't include third party services offered through cloud market places.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <span id="forkongithub">
-        <a href="https://github.com/ilyas-it83/CloudComparer/">Fork me on GitHub</a>
-    </span>
-
-    <!-- Footer Containing Contact Details -->
-    <footer>
-        <div class="container">
-            <div class="row text-center">
-                <h4>
-                    <strong>The Ultimate Cloud Comparison by
-                        <a href="https://github.com/ilyas-it83/CloudComparer/">Ilyas</a>
-                    </strong>
-                </h4>
-                <ul class="list-unstyled">
-                    <li>
-                        <i class="fa fa-phone fa-fw"></i> +91-9894692648</li>
-                    <li>
-                        <i class="fa fa-envelope-o fa-fw"></i>
-                        <a href="mailto:ilyas@bornoncloud.com">ilyas@bornoncloud.com</a>
-                    </li>
-                </ul>
-                <br>
-                <ul class="list-inline">
-                    <li>
-                        <a href="https://www.facebook.com/IlyasTheWebizen">
-                            <i class="fa fa-facebook fa-fw fa-3x"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/Ilyas_tweets">
-                            <i class="fa fa-twitter fa-fw fa-3x"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://in.linkedin.com/in/ilyasf">
-                            <i class="fa fa-linkedin fa-fw fa-3x"></i>
-                        </a>
-                    </li>
-                </ul>
-                <hr class="small">
-                <p class="text-muted">Copyright &copy; BornOnCloud 2014</p>
-            </div>
-        </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg">
-            <i class="fa fa-chevron-up fa-fw fa-1x"></i>
-        </a>
-    </footer>
-
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
